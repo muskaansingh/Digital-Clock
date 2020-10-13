@@ -1,0 +1,31 @@
+@font-face
+{
+    font-family: digital;
+    src:url(digital.ttf);
+}
+
+#myClock
+{
+    font-family: digital;
+    font-size: 120px;
+    text-align: center;  
+    border: 2px black dashed;
+    padding: 0px 5px 0px 5px;
+    box-sizing: content-box;
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    background-color: rgb(189, 181, 179);
+    border-radius: 10px;
+}
+
+body
+{
+    background-image: linear-gradient(to right, darkgray, rgb(71, 69, 69));
+}
+
+h1 
+{
+    text-align: center;
+    font-size: 5em;
+}
